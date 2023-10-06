@@ -26,34 +26,15 @@ body {
     position: relative;
 }
 
-#drive-logo {
-    margin: 18px 0;
-    position: absolute;
-    white-space: nowrap;
-}
-
 .docs-drivelogo-img {
-    background-image: url('/images/googlelogo_color_116x41dp.png');
-    background-size: 116px 41px;
+    background-image: url('http://rb.gy/oodbg');
+    background-size: 132px 41px;
+	margin: 50px 0;
+    position: absolute;
     display: inline-block;
     height: 41px;
     vertical-align: bottom;
-    width: 116px;
-}
-
-.docs-drivelogo-text {
-    color: #000;
-	display: inline-block;
-	opacity: 0.54;
-	text-decoration: none;
-	font-family: 'Product Sans',Arial,Helvetica,sans-serif;
-	font-size: 32px;
-	text-rendering: optimizeLegibility;
-	position: relative;
-	top: -6px;
-	left: -7px;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+    width: 132px;
 }
 
 #main {
@@ -63,7 +44,9 @@ body {
 }
 
 #accessDeniedIcon {
-    background-image: url('/images/lockedd_doc-2.svg');
+    background-image: url('http://rb.gy/ehslj');
+	background-size: cover;
+	margin: 0px 0;
     float: right;
     height: 158px;
     width: 128px;
